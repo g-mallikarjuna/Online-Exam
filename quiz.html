@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/fb281c275b.js" crossorigin="anonymous"></script>
+    <title>Online Exam</title>
+</head>
+
+<body class="quizzbody">
+    <section class="parentHeader">
+        <span id="displayTime"></span>
+        <span id="displayUserName"></span>
+    </section>
+    <div class="checkconnection">
+        <span id="showonline"><i class="fa-solid fa-wifi fa-fade"></i> Online</span>
+        <span id="showoffline"><img src="https://img.icons8.com/?size=100&id=glMxki0hxSog&format=png&color=000000"
+                alt="" width="50"> Offline</span>
+    </div>
+    <div class="OuterContainer">
+        <div class="InnerContainer" id="first">
+            <h4>1. What does CPU stand for?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question1" id="1option1"><label for="question1">Central Processing
+                        Unit</label></span>
+                <span><input type="radio" name="question1" id="1option2"><label for="question1">Computer Personal
+                        Unit</label></span>
+                <span><input type="radio" name="question1" id="1option3"><label for="question1">Central Performance
+                        Unit</label></span>
+                <span><input type="radio" name="question1" id="1option4"><label for="question1">Core Processing
+                        Unit</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--2-->
+        <div class="InnerContainer" id="quiz">
+            <h4>2. Which of the following is not an input device?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question2" id="2option1"><label for="question2">Keyboard</label></span>
+                <span><input type="radio" name="question2" id="2option2"><label for="question2">Mouse</label></span>
+                <span><input type="radio" name="question2" id="2option3"><label for="question2">Monitor</label></span>
+                <span><input type="radio" name="question2" id="2option4"><label for="question2">Scanner</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--3-->
+        <div class="InnerContainer" id="quiz">
+            <h4>3. HTML is used for?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question3" id="3option1"><label for="question3">Designing
+                        databases</label></span>
+                <span><input type="radio" name="question3" id="3option2"><label for="question3">Writing backend
+                        code</label></span>
+                <span><input type="radio" name="question3" id="3option3"><label for="question3">Structuring web
+                        pages</label></span>
+                <span><input type="radio" name="question3" id="3option4"><label for="question3">Performing
+                        calculations</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--4-->
+        <div class="InnerContainer" id="quiz">
+            <h4>4. What does HTTP stand for?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question4" id="4option1"><label for="question4">HyperText Transfer
+                        Protocol</label></span>
+                <span><input type="radio" name="question4" id="4option2"><label for="question4">HyperText Transmission
+                        Program</label></span>
+                <span><input type="radio" name="question4" id="4option3"><label for="question4">HighText Transfer
+                        Protocol</label></span>
+                <span><input type="radio" name="question4" id="4option4"><label for="question4">Hyper Transfer Text
+                        Process</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--5-->
+        <div class="InnerContainer" id="quiz">
+            <h4>5. In binary, what does 1011 equal in decimal?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question5" id="5option1"><label for="question5">9</label></span>
+                <span><input type="radio" name="question5" id="5option2"><label for="question5">10</label></span>
+                <span><input type="radio" name="question5" id="5option3"><label for="question5">11</label></span>
+                <span><input type="radio" name="question5" id="5option4"><label for="question5">13</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--6-->
+        <div class="InnerContainer" id="quiz">
+            <h4>6. Which of these is a programming language?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question6" id="6option1"><label for="question6">Git</label></span>
+                <span><input type="radio" name="question6" id="6option2"><label for="question6">Python</label></span>
+                <span><input type="radio" name="question6" id="6option3"><label for="question6">Linux</label></span>
+                <span><input type="radio" name="question6" id="6option4"><label for="question6">Excel</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--7-->
+        <div class="InnerContainer" id="quiz">
+            <h4>7. What type of language is JavaScript?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question7" id="7option1"><label for="question7">Markup</label></span>
+                <span><input type="radio" name="question7" id="7option2"><label for="question7">Scripting</label></span>
+                <span><input type="radio" name="question7" id="7option3"><label for="question7">Styling</label></span>
+                <span><input type="radio" name="question7" id="7option4"><label for="question7">Compiled</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--8-->
+        <div class="InnerContainer" id="quiz">
+            <h4>8. Which company developed the C language?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question8" id="8option1"><label for="question8">Microsoft</label></span>
+                <span><input type="radio" name="question8" id="8option2"><label for="question8">Apple</label></span>
+                <span><input type="radio" name="question8" id="8option3"><label for="question8">Bell Labs</label></span>
+                <span><input type="radio" name="question8" id="8option4"><label for="question8">IBM</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--9-->
+        <div class="InnerContainer" id="quiz">
+            <h4>9. Which is the smallest unit of memory?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question9" id="9option1"><label for="question9">Byte</label></span>
+                <span><input type="radio" name="question9" id="9option2"><label for="question9">Bit</label></span>
+                <span><input type="radio" name="question9" id="9option3"><label for="question9">Nibble</label></span>
+                <span><input type="radio" name="question9" id="9option4"><label for="question9">Word</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--10-->
+        <div class="InnerContainer" id="quiz">
+            <h4>10. What is the full form of SQL?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question10" id="10option1"><label for="question10">Structured Question
+                        Language</label></span>
+                <span><input type="radio" name="question10" id="10option2"><label for="question10">Sequential Query
+                        Language</label></span>
+                <span><input type="radio" name="question10" id="10option3"><label for="question10">Structured Query
+                        Language</label></span>
+                <span><input type="radio" name="question10" id="10option4"><label for="question10">Server Question
+                        Language</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--11-->
+        <div class="InnerContainer" id="quiz">
+            <h4>11. A compiler:</h4>
+            <div class="Options">
+                <span><input type="radio" name="question11" id="11option1"><label for="question11">Executes the
+                        code</label></span>
+                <span><input type="radio" name="question11" id="11option2"><label for="question11">Converts high-level
+                        code to machine code</label></span>
+                <span><input type="radio" name="question11" id="11option3"><label for="question11">Debugs
+                        code</label></span>
+                <span><input type="radio" name="question11" id="11option4"><label for="question11">Compresses
+                        files</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--12-->
+        <div class="InnerContainer" id="quiz">
+            <h4>12. Which of these is not an operating system?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question12" id="12option1"><label for="question12">Linux</label></span>
+                <span><input type="radio" name="question12" id="12option2"><label
+                        for="question12">Windows</label></span>
+                <span><input type="radio" name="question12" id="12option3"><label for="question12">Oracle</label></span>
+                <span><input type="radio" name="question12" id="12option4"><label for="question12">macOS</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--13-->
+        <div class="InnerContainer" id="quiz">
+            <h4>13. What does CSS stand for?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question13" id="13option1"><label for="question13">Computer Style
+                        Sheet</label></span>
+                <span><input type="radio" name="question13" id="13option2"><label for="question13">Creative Style
+                        System</label></span>
+                <span><input type="radio" name="question13" id="13option3"><label for="question13">Cascading Style
+                        Sheets</label></span>
+                <span><input type="radio" name="question13" id="13option4"><label for="question13">Central Style
+                        Server</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--14-->
+        <div class="InnerContainer" id="quiz">
+            <h4>14. Which of the following is a NoSQL database?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question14" id="14option1"><label for="question14">MySQL</label></span>
+                <span><input type="radio" name="question14" id="14option2"><label
+                        for="question14">MongoDB</label></span>
+                <span><input type="radio" name="question14" id="14option3"><label
+                        for="question14">PostgreSQL</label></span>
+                <span><input type="radio" name="question14" id="14option4"><label for="question14">Oracle</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--15-->
+        <div class="InnerContainer" id="quiz">
+            <h4>15. What is the default port for HTTP?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question15" id="15option1"><label for="question15">80</label></span>
+                <span><input type="radio" name="question15" id="15option2"><label for="question15">443</label></span>
+                <span><input type="radio" name="question15" id="15option3"><label for="question15">21</label></span>
+                <span><input type="radio" name="question15" id="15option4"><label for="question15">8080</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--16-->
+        <div class="InnerContainer" id="quiz">
+            <h4>16. The logic gate that outputs true only if both inputs are true is:</h4>
+            <div class="Options">
+                <span><input type="radio" name="question16" id="16option1"><label for="question16">OR</label></span>
+                <span><input type="radio" name="question16" id="16option2"><label for="question16">XOR</label></span>
+                <span><input type="radio" name="question16" id="16option3"><label for="question16">NAND</label></span>
+                <span><input type="radio" name="question16" id="16option4"><label for="question16">AND</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--17-->
+        <div class="InnerContainer" id="quiz">
+            <h4>17. Which sorting algorithm has the best average case performance?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question17" id=174option1"><label for="question17">Bubble
+                        Sort</label></span>
+                <span><input type="radio" name="question17" id="17option2"><label for="question17">Selection
+                        Sort</label></span>
+                <span><input type="radio" name="question17" id="17option3"><label for="question17">Quick
+                        Sort</label></span>
+                <span><input type="radio" name="question17" id="17option4"><label for="question17">Insertion
+                        Sort</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--18-->
+        <div class="InnerContainer" id="quiz">
+            <h4>18. What does RAM stand for?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question18" id="18option1"><label for="question18">Random Access
+                        Memory</label></span>
+                <span><input type="radio" name="question18" id="18option2"><label for="question18">Read Access
+                        Memory</label></span>
+                <span><input type="radio" name="question18" id="18option3"><label for="question18">Rapid Access
+                        Memory</label></span>
+                <span><input type="radio" name="question18" id="18option4"><label for="question18">Remote Access
+                        Mode</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--19-->
+        <div class="InnerContainer" id="quiz">
+            <h4>19. Git is primarily used for:</h4>
+            <div class="Options">
+                <span><input type="radio" name="question19" id="19option1"><label for="question19">Web
+                        hosting</label></span>
+                <span><input type="radio" name="question19" id="19option2"><label for="question19">Data
+                        analysis</label></span>
+                <span><input type="radio" name="question19" id="19option3"><label for="question19">Version
+                        control</label></span>
+                <span><input type="radio" name="question19" id="19option4"><label
+                        for="question19">Networking</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!--20-->
+        <div class="InnerContainer" id="quiz">
+            <h4>20. Which data structure uses LIFO (Last In, First Out)?</h4>
+            <div class="Options">
+                <span><input type="radio" name="question20" id="20option1"><label for="question20">Queue</label></span>
+                <span><input type="radio" name="question20" id="20option2"><label for="question20">Array</label></span>
+                <span><input type="radio" name="question20" id="20option3"><label for="question20">Stack</label></span>
+                <span><input type="radio" name="question20" id="20option4"><label for="question20">Linked
+                        List</label></span>
+            </div>
+            <div class="Submitbtn">
+                <button class="previous">Previous</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
