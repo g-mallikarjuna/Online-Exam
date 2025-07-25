@@ -54,10 +54,6 @@ body {
 
 }
 
-.quizzbody {
-    overflow-y: hidden;
-}
-
 .mainContainer {
     border: 3px solid gray;
     height: 100vh;
