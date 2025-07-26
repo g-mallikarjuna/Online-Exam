@@ -58,6 +58,7 @@ body {
     border: 3px solid gray;
     height: 100vh;
     margin: 5px;
+    height:auto;
     padding: 10px;
 }
 
